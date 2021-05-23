@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="icon" href="/images/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+
+
+  </head>
+  <body>
+    <div class="main-content">
+       {{>header}}
+      <p>{{body}}</p>
+      <form>
+        <input placeholder="Location">
+        <button>Search</button>
+      </form>
+      <p class='msg-1'></p>
+      <p class='msg-2'></p>
+    </div>
+    <!-- rendering of partials -->
+
+    {{>footer}}
+    <script src="/js/app.js" charset="utf-8"></script>
+  </body>
+</html>
