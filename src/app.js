@@ -40,8 +40,8 @@ app.get('/about',(req,res)=>{
 
 app.get('/help',(req,res)=>{
   res.render('help',{
-    title:'Help page',
-    body:'Helping you is our duty.',
+    title:'Help',
+    body:'A useful page for providing help.',
     name:'Aparna Sharma'
   })
 })
