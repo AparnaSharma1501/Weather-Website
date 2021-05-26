@@ -58,7 +58,7 @@ app.get('/weather',(req,res)=>{
   if(!req.query.address)
   {
     return res.send({
-      error:'No info about address'
+      error:'No information about address'
     })
   }
 

@@ -14,7 +14,7 @@ const forecast=(latitude,longitude,callback)=>
     }
     else
     {
-      callback(undefined,body.current.weather_descriptions[0] +". It is currently "+body.current.temperature+" degrees out. It feels like "+body.current.feelslike+" degrees out.")
+      callback(undefined,body.current.weather_descriptions[0] +". It is currently "+body.current.temperature+" degrees out with cloud coverage "+body.current.cloudcover+"% and humidity "+body.current.humidity+"%. It feels like "+body.current.feelslike+" degrees out.")
     }
   })
 }
